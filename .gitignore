@@ -1,0 +1,12 @@
+tf-env/
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+AugmentedAlzheimerDataset/
+OriginalDataset/
+
+*.h5
+*.keras

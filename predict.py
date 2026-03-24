@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 
 model = load_model("alzheimer_model.h5")
 
-img_path = "AugmentedAlzheimerDataset/NonDemented/non-1.jpg"
+img_path = "AugmentedAlzheimerDataset/ModerateDemented/mod-1.jpg"
 
 img = image.load_img(img_path, target_size=(128,128))
 img_array = image.img_to_array(img)
